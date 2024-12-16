@@ -21,7 +21,7 @@ function App() {
         <h1 className="text-2xl font-bold mb-4 text-gray-800">Cat Facts</h1>
         <button 
           onClick={fetchCatFact} 
-          className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition">
+          className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition">
           Generate Cat Fact
         </button>
         <p className="mt-4 text-gray-700">{catFact}</p>
